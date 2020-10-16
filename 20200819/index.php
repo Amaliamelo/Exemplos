@@ -9,6 +9,6 @@
         <a href="exemplo_acoes_html.php">Exemplo html</a><br />
         <a href="exemplo_acoes_show_hide.php">Exemplo show_hide</a><br />
         <a href="exemplo_acoes_val.php">Exemplo val</a><br />
-        <a href="exemplo_gatilhos.php">Exemplo gatilhos</a><br />
+        <a href="exemplos_gatilhos.php">Exemplo gatilhos</a><br />
     </body>
 </html>

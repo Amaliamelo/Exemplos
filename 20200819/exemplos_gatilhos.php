@@ -57,10 +57,10 @@
         <hr />
         <button id="btn6"> Gatilho "MouseUP" </button>
         <hr />
-        <input tyoe="text" id="input1" palceholder = 'Gatilho "Focus"'/>
+        <input type="text" id="input1" palceholder = 'Gatilho "Focus"'/>
         <hr />
-        <input tyoe="text" id="input2" palceholder = 'Gatilho "Blur"'/>
-        <input tyoe="text" id="teste" palceholder = 'Elemento para testar blur por tb...'/>
+        <input type="text" id="input2" palceholder = 'Gatilho "Blur"'/>
+        <input type="text" id="teste" palceholder = 'Elemento para testar blur por tb...'/>
         <hr />
         <a href="#">Link para testar focus</a>
     </body>

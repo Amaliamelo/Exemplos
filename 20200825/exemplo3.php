@@ -15,7 +15,7 @@
                 $("#btn").click(function(){
                     valor1= $("input[name='x'").val();
                     valor2= $("input[name='y'").val();
-                    $.get("teste2.php", {"v1":valor1, "v2": valor2}, function(m){
+                    $.get("teste2.php", {"v1":valor1, "v2": valor2},function(m){
                         $("#div_receptora").html(m);
                     });
                 });

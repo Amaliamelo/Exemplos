@@ -14,7 +14,7 @@
         $email= $_POST["email"];
         $data_nascimento=$_POST["data_nascimento"];
         $sexo=$_POST["sexo"];
-        $disciplinas[]=$_POST["disciplina"];
+        $disciplinas=$_POST["disciplina"];
 
         $insert =" INSERT INTO aluno (
                                     prontuario,
@@ -36,7 +36,8 @@
 
         
         foreach($disciplinas as $disciplina){
-                $insertD =" INSERT INTO aluno_cursa_disciplina (
+               echo $disciplina; 
+            /*$insertD =" INSERT INTO aluno_cursa_disciplina (
                                 id_disciplina,
                                 id_aluno
                             )
@@ -45,10 +46,10 @@
                                 '$prontuario'
                             )";
             mysqli_query($conexao,$insertD) or
-            die(mysqli_error($conexao));
+            die(mysqli_error($conexao));*/
         }
        
-        echo"Disciplinas e alunos inserido com sucesso!";
+        //echo"Disciplinas e alunos inserido com sucesso!";
 
     ?>
     </body>

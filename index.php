@@ -16,5 +16,6 @@
         <a href="20200922/alunos.php">20200922-Introdução PHP + MySQL</a><br />
         <a href="20200929/alunos.php">20200929-Introdução PHP + MySQL Filtros</a><br />
         <a href="20201006/form_aluno.php">20201006-Introdução PHP + MySQL Inserts</a><br />
+        <a href="20201020/index.php">Trabalho 2 Bimestre</a><br />
    </body>
 </html>
